@@ -649,6 +649,7 @@ html, body {
     position: relative;
     z-index: 9;
     padding: 140px 100px;
+    margin-bottom: 14rem;
 }
 .page5 h2{
     font-size: 4vw;
@@ -699,11 +700,6 @@ footer{
     padding: 0 2vw;
 }
 
-#page5 {
-    height: 100vh;
-    width: 100%;
-    /* background-color: #EFEAE3; */
-}
 
 #footer {
     position: fixed;
@@ -725,10 +721,11 @@ footer{
     font-family: PP Mori;
     justify-content: center;
     align-items: center;
-    margin-left: 22%;
+    /* margin-left: 22%; */
     display: inline-block;
     color: black;
     /* overflow: hidden; */
+    margin-bottom: 17rem;
 }
 
 #footer-div {
@@ -746,23 +743,4 @@ footer{
     border-top: 1px solid #dadada;
     height: 10vh;
     width: 100%;
-}
-
-#full-scr {
-    height: 100vh;
-    width: 100%;
-    background-color: #00000070;
-    position: fixed;
-    z-index: 99;
-    top: -100%;
-    transition: all ease 0.5s;
-}
-
-#full-div1 {
-    height: 50%;
-    width: 100%;
-    background-color: #EFEAE3;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
 }
